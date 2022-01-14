@@ -32,7 +32,7 @@
 
     <!-- Top menu item -->
 
-    <menuitem name="Lista de cosis que hacer hoy" id="lista_tareas.menu_root"/>
+    <menuitem name="Lista de tareas pa hacer" id="lista_tareas.menu_root"/>
 
     <!-- menu categories -->
 
