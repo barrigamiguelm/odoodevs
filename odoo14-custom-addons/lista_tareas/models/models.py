@@ -6,7 +6,7 @@ from odoo import models, fields, api
 class lista_tareas(models.Model):
     #Nombre y descripcion del modelo de datos
     _name = 'lista_tareas.lista_tareas'
-    _description = 'lista_tareas.lista_tareas'
+    _description = 'Milista'
 
     #Elementos de cada fila del modelo de datos
     #Los tipos de datos a usar en el ORM son 

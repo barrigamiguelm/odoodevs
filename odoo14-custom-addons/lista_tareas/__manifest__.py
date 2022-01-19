@@ -3,14 +3,14 @@
     'name': "Lista de tareas",
 
     'summary': """
-    Sencilla Lista de tareas""",
+    Lista de tareas""",
 
     'description': """
-    Sencilla lista de tareas utilizadas para crear un nuevo módulo con un nuevo modelo de datos
+    Lista de tareas para que no se me olvide nada
     """,
 
-    'author': "Sergi García",
-    'website': "https://apuntesfpinformatica.es",
+    'author': "miguel barriga",
+    'website': "https://google.es",
     #Indicamos que es una aplicación
     'application': True,
 
