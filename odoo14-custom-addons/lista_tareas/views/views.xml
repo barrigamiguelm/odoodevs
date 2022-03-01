@@ -7,11 +7,13 @@
       <field name="name">lista_tareas list</field>
       <field name="model">lista_tareas.lista_tareas</field>
       <field name="arch" type="xml">
-        <tree>
+        <tree decoration-success="realizada == True">   
           <field name="tarea"/>
-          <field name="prioridad"/>
+          <field name="prioridad" widget="percentpie"/>
           <field name="urgente"/>
           <field name="realizada"/>
+          <field name = "fecha" widget="date_time"/>
+          <field name="progreso"/>
         </tree>
       </field>
     </record>

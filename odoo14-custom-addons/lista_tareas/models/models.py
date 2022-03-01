@@ -11,11 +11,19 @@ class lista_tareas(models.Model):
     #Elementos de cada fila del modelo de datos
     #Los tipos de datos a usar en el ORM son 
     # https://www.odoo.com/documentation/14.0/developer/reference/addons/orm.html#fields
-   
     tarea = fields.Char()
     prioridad = fields.Integer()
     urgente = fields.Boolean(compute="_value_urgente", store=True)
     realizada = fields.Boolean()
+    fecha = fields.Date()
+    progreso = fields.Selection(
+        String="Progreso",
+        selection=[
+            ('undone',"No empezado"),
+            ('progress',"En progreso"),
+            ('finish',"Termiando"),
+        ]
+    )
 
 
     #Este computo depende de la variable prioridad
