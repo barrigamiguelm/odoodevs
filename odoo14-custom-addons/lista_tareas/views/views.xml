@@ -37,6 +37,16 @@
     <!-- menu categories -->
 
     <menuitem name="Opciones Lista Tareas" id="lista_tareas.menu_1" parent="lista_tareas.menu_root"/>
+    <menuitem name="MenuPersonalizado" id="lista_tareas.menu_2" parent="lista_tareas.menu_root"/>
+
+
+      <menuitem name="Clientes" id="lista_tareas.menu_1_1list" parent="lista_tareas.menu_2"
+              action="lista_tareas.action_window"/>
+                <menuitem name="Usuarios" id="lista_tareas.menu_1_2list" parent="lista_tareas.menu_2"
+              action="lista_tareas.action_window"/>
+                <menuitem name="Empresas amigas" id="lista_tareas.menu_1_3list" parent="lista_tareas.menu_2"
+              action="lista_tareas.action_window"/>
+    
 
     <!-- actions -->
 
